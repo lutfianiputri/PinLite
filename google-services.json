@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "351617376010",
+    "firebase_url": "https://pinlite-4cedb-default-rtdb.firebaseio.com",
+    "project_id": "pinlite-4cedb",
+    "storage_bucket": "pinlite-4cedb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351617376010:android:5766115c6f5da0ec01e4f3",
+        "android_client_info": {
+          "package_name": "com.example.pinlite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "351617376010-dmv87gb3h54qut8evv0htsa31lhq82ip.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pinlite",
+            "certificate_hash": "bb6158699cbc80296ff2d7816aadf727b85b9659"
+          }
+        },
+        {
+          "client_id": "351617376010-fjehnogbdhaephjbq67qunp83iq2dfss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQNHu0LNv4f5A-cg1QVQuhxQdLGJsvlxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "351617376010-fjehnogbdhaephjbq67qunp83iq2dfss.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

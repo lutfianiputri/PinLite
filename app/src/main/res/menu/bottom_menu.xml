@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Beranda"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/nav_add"
+        android:title="Buat"
+        android:icon="@drawable/ic_add"/>
+
+    <item
+        android:id="@+id/nav_saved"
+        android:title="Disimpan"
+        android:icon="@drawable/ic_saved"/>
+
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profil"
+        android:icon="@drawable/ic_profile"/>
+
+</menu>

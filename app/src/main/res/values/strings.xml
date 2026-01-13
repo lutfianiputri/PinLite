@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PinLite</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_subtitle">Masuk untuk menemukan inspirasi</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Google Sign-In -->
+    <string name="default_web_client_id">
+        351617376010-fjehnogbdhaephjbq67qunp83iq2dfss.apps.googleusercontent.com
+    </string>
+</resources>

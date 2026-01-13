@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <!-- TEXT PINLITE -->
+    <TextView
+        android:id="@+id/tvLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PinLite"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/pin_red"
+        android:layout_marginTop="48dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- LOGO GAMBAR -->
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/logo"
+        android:contentDescription="Logo Aplikasi PinLite"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="6dp"
+        app:layout_constraintTop_toBottomOf="@id/tvLogo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- FORM LOGIN -->
+    <LinearLayout
+        android:id="@+id/containerForm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="24dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/imgLogo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- EMAIL -->
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:contentDescription="Input Email Pengguna" />
+
+        <!-- PASSWORD -->
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_marginTop="8dp"
+            android:contentDescription="Input Password Pengguna" />
+
+        <!-- BUTTON LOGIN -->
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Login"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/pin_red"
+            android:textColor="@android:color/white" />
+
+        <!-- BUTTON GOOGLE -->
+        <Button
+            android:id="@+id/btnGoogle"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Login dengan Google"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/pin_red"
+            android:textColor="@android:color/white" />
+
+        <!-- REGISTER -->
+        <TextView
+            android:id="@+id/tvRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belum punya akun? Daftar"
+            android:textColor="@color/pin_red"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:contentDescription="Navigasi ke halaman daftar akun" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
